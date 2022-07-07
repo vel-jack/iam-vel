@@ -12,7 +12,7 @@ const EthDev = () => {
       </div>
       <div className='w-full'>
         <p className=' text-2xl font-bold'>Web3 with solidity</p>
-        <p className=' text-lg'>Having knowledge of writing and deploying ethereum smart contracts for ERC20, ERC721 and ERC1155 using solidity. Deployed DAPP on rinkeby test network.</p>
+        <p className=' text-lg'>Having knowledge of writing and deploying ethereum smart contracts using solidity. Deployed DAPPs on rinkeby test network.</p>
         <br />
         <div className='md:text-lg'>
             <p>{'- Crypto T-Shirts'} <a href="#" className=' animate-pulse'>(Demo)</a> <IconLink link={'#'}/></p>
