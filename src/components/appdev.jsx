@@ -1,41 +1,27 @@
 import React from 'react'
 import flutterlogo from '../assets/flutter.svg';
-import playlogo from '../assets/google-play.png';
-import githublogo from '../assets/github.png';
+import IconLink from './iconlink';
 
-const AppDev = () => {
-  
-  const PlayLink = ({link})=>{
-    return (
-    <a href={link} className='inline-flex'>
-      <img src={playlogo} alt="playlogo" width={15} />
-    </a>);
-  };
-  const GitLink = ({link})=>{
-    return (
-    <a href={link} className='inline-flex'>
-      <img src={githublogo} alt="playlogo" width={15} />
-    </a>);
-  };
-
+const AppDev = () => {  
   return (
-    <div className='flex flex-col md:flex-row justify-between p-5 xl:px-48 lg:px-24'>
-      <div className=' self-center w-full'>
-        <img src={flutterlogo} alt="F" className=' w-48 hidden md:block lg:w-40'/>
-        </div>
+    <div className='flex flex-col md:flex-row justify-between px-5 xl:px-48 lg:px-24 md:py-20'>
+      <div className='flex justify-center w-full'>
+        
+        <img src={flutterlogo} alt="F" className=' w-40 hidden md:block '/>
+        
+      </div>
       <div className='w-full'>
         <p className=' text-2xl font-bold'>Flutter & Dart</p>
         <p className=' text-lg'>Learning and developing apps using flutter.</p>
         <br />
         <div className='md:text-lg'>
-            <p>{'- Bahrain Bus'} <PlayLink link='#'/></p>
-            <p>{'- Mini Todo'} <PlayLink link='#'/>,<GitLink link='#'/> </p>
-            <p>{'- Hastagram'} <GitLink link='#'/> </p>
-            <p>{'- Gulf news'} <GitLink link='#'/></p>
-            <p>{'- Notes App'} <GitLink link='#'/></p>
-            <p>{'- Word Rush'} <PlayLink link='#'/>,<GitLink link='#'/> </p>
-            <p>{'- Bahrain Bus'} <PlayLink link='#'/>,<GitLink link='#'/></p> 
-            <p>{'- Bluetooth Scale'} <GitLink link='#'/></p>
+            <p>{'- Mini Todo'} <IconLink link={'#'} isStore={true}/> <IconLink link={'#'}/></p>
+            <p>{'- Word Rush'} <IconLink link={'#'} isStore={true}/> <IconLink link={'#'}/></p>
+            <p>{'- Bahrain Bus'} <IconLink link={'#'} isStore={true}/> <IconLink link={'#'}/></p> 
+            <p>{'- Bluetooth Scale'} <IconLink link={'#'}/></p>
+            <p>{'- Notes App'} <IconLink link={'#'}/></p>
+            <p>{'- Hastagram'} <IconLink link={'#'}/></p>
+            <p>{'- Gulf news'} <IconLink link={'#'}/></p>
         </div>
         
       </div>
