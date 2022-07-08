@@ -1,4 +1,4 @@
-import { AppDev, EthDev, GameDev, Intro } from "./components"
+import { AppDev, EthDev, GameDev, Intro,Footer } from "./components"
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <AppDev/>
       <GameDev/>
       <EthDev/>
+      <Footer/>
     </div>
   )
 }

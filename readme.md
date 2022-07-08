@@ -1,5 +1,5 @@
 # iam-vel
 Todo
 - [x] Design components
-- [ ] Add header and footer
+- [ ] Add footer
 - [ ] Update anchor tag with blank target
