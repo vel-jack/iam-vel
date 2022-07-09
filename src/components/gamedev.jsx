@@ -20,7 +20,7 @@ const GameDev = () => {
       </div>
       <div className='flex justify-center w-full'>
       
-        <img src={godotLogo} alt="F" className='w-48 hidden md:block '/>
+        <img src={godotLogo} alt="F" className='w-48 hidden md:block'/>
       
       </div>
     </div>

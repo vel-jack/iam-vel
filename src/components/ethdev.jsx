@@ -1,5 +1,5 @@
 import React from 'react'
-import solidityLogo from '../assets/solidity.jpg';
+import solidityLogo from '../assets/solidity.png';
 import IconLink from './iconlink';
 
 
