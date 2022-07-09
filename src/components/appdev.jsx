@@ -23,7 +23,6 @@ const AppDev = () => {
             <p>{'- Hastagram'} <IconLink link={'https://github.com/vel-jack/hastagram'}/></p>
             <p>{'- Gulf news'} <IconLink link={'https://github.com/vel-jack/gulf_news'}/></p>
         </div>
-        
       </div>
     </div>
   )

@@ -11,7 +11,7 @@ const EthDev = () => {
     <div className='flex flex-col md:flex-row justify-between px-5 xl:px-48 lg:px-24 md:py-20'>
       <div className='flex justify-center w-full'>
         
-        <img src={solidityLogo} alt="F" className=' w-40 hidden md:block '/>
+        <img src={solidityLogo} alt="F" className=' h-52 hidden md:block self-center'/>
         
       </div>
       <div className='w-full'>
