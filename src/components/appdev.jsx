@@ -15,13 +15,13 @@ const AppDev = () => {
         <p className=' text-lg'>Learning and developing apps using flutter.</p>
         <br />
         <div className='md:text-lg'>
-            <p>{'- Mini Todo'} <IconLink link={'#'} isStore={true}/> <IconLink link={'#'}/></p>
-            <p>{'- Word Rush'} <IconLink link={'#'} isStore={true}/> <IconLink link={'#'}/></p>
-            <p>{'- Bahrain Bus'} <IconLink link={'#'} isStore={true}/> <IconLink link={'#'}/></p> 
-            <p>{'- Bluetooth Scale'} <IconLink link={'#'}/></p>
-            <p>{'- Notes App'} <IconLink link={'#'}/></p>
-            <p>{'- Hastagram'} <IconLink link={'#'}/></p>
-            <p>{'- Gulf news'} <IconLink link={'#'}/></p>
+            <p>{'- Word Rush'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.wordrush'} isStore={true}/> <IconLink link={'https://github.com/vel-jack/wordrush'}/></p>
+            <p>{'- Mini Todo'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.minitodo'} isStore={true}/> <IconLink link={'https://github.com/vel-jack/minitodo'}/></p>
+            <p>{'- Bahrain Bus'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.bhbus'} isStore={true}/></p> 
+            <p>{'- Bluetooth Scale'} <IconLink link={'https://github.com/vel-jack/bluetooth_scale'}/></p>
+            <p>{'- Notes App'} <IconLink link={'https://github.com/vel-jack/fnotes'}/></p>
+            <p>{'- Hastagram'} <IconLink link={'https://github.com/vel-jack/hastagram'}/></p>
+            <p>{'- Gulf news'} <IconLink link={'https://github.com/vel-jack/gulf_news'}/></p>
         </div>
         
       </div>

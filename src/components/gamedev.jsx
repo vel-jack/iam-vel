@@ -10,11 +10,11 @@ const GameDev = () => {
         <p className=' text-lg'>Making simple and minimal puzzle games with godot game engine. Published games at play store under the name of <span className='font-bold'>Nothing Box Games</span>.</p>
         <br />
         <div className='md:text-lg'>
-            <p>{'- Cress'} <IconLink link={'#'} isStore={true}/></p>
-            <p>{'- Cress (Demo version)'} <IconLink link={'#'} isStore={true}/></p>
-            <p>{'- Add Dots'} <IconLink link={'#'} isStore={true}/> </p> 
-            <p>{'- Pop the tiles'} <IconLink link={'#'} isStore={true}/></p>
-            <p>{'- Perplex'} <IconLink link={'#'} isStore={true}/></p>
+            <p>{'- Cress'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.cresspro'} isStore={true}/></p>
+            <p>{'- Cress (Demo version)'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.cress'} isStore={true}/></p>
+            <p>{'- Add Dots'} <IconLink link={'https://play.google.com/store/apps/details?id=org.emptybox.adddots'} isStore={true}/> </p> 
+            <p>{'- Pop the tiles'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.poptiles'} isStore={true}/></p>
+            <p>{'- Perplex'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.perplex'} isStore={true}/></p>
             <p>{'- Misma (In development)'} </p>
         </div>
       </div>

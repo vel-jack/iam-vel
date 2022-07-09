@@ -12,8 +12,8 @@ const Intro = () => {
         <div className='h-5'></div>
         <div className='md:text-lg'>
           <p>Indie-Game developer,</p> 
-          <p>@Nothing Box Games 🔲.</p>
-          <p>Published <span className='font-bold'>apps</span> and <span className='font-bold'>games</span> at <span className='animate-pulse'>playstore</span> 🎮.</p>
+          <p><a href="https://www.twitter.com/@nothingboxgames" target='_blank'>@nothingboxgames 🔲.</a> </p>
+          <p>Published <span className='font-bold'>apps</span> and <span className='font-bold'>games</span> at <a href="https://play.google.com/store/apps/dev?id=5626370241132262318"><span className='animate-pulse'>playstore</span> 🎮.</a></p>
           <p>Hands on experience in <span className='font-bold'>Flutter</span> and <span className='font-bold'>Godot</span>.</p>
           <p>Simple & Minimalist.</p>
         </div>
