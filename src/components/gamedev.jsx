@@ -15,7 +15,7 @@ const GameDev = () => {
             <p>{'- Add Dots'} <IconLink link={'https://play.google.com/store/apps/details?id=org.emptybox.adddots'} isStore={true}/> </p> 
             <p>{'- Pop the tiles'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.poptiles'} isStore={true}/></p>
             <p>{'- Perplex'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.perplex'} isStore={true}/></p>
-            <p>{'- Misma (In development)'} </p>
+            
         </div>
       </div>
       <div className='flex justify-center w-full'>
