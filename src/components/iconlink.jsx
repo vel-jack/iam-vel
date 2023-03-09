@@ -5,7 +5,7 @@ import githublogo from '../assets/github.png';
 const IconLink = ({link,isStore}) => {
   return (
     <a href={link} className='inline-flex' target={'_blank'} >
-      <img src={isStore? playlogo:githublogo} alt="icon" className=' w-4 md:w-5' />
+      <img src={isStore? playlogo:githublogo} alt="icon" className=' w-4' />
     </a>
   );
 }

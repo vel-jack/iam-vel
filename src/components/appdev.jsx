@@ -15,13 +15,11 @@ const AppDev = () => {
         <p className=' text-lg'>Learning and developing apps using flutter.</p>
         <br />
         <div className='md:text-lg'>
+            <p>{'- Flutter Developer Intern at'} <a href='https://www.gogullak.com' target={'_blank'} className="font-bold">GoGullak</a> <IconLink link={'https://play.google.com/store/apps/details?id=com.gogullak.gullak'} isStore={true}/></p>
             <p>{'- Word Rush'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.wordrush'} isStore={true}/> <IconLink link={'https://github.com/vel-jack/wordrush'}/></p>
             <p>{'- Mini Todo'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.minitodo'} isStore={true}/> <IconLink link={'https://github.com/vel-jack/minitodo'}/></p>
             <p>{'- Bahrain Bus'} <IconLink link={'https://play.google.com/store/apps/details?id=com.emptybox.bhbus'} isStore={true}/></p> 
             <p>{'- Bluetooth Scale'} <IconLink link={'https://github.com/vel-jack/bluetooth_scale'}/></p>
-            <p>{'- Notes App'} <IconLink link={'https://github.com/vel-jack/fnotes'}/></p>
-            <p>{'- Hastagram'} <IconLink link={'https://github.com/vel-jack/hastagram'}/></p>
-            <p>{'- Gulf news'} <IconLink link={'https://github.com/vel-jack/gulf_news'}/></p>
         </div>
       </div>
     </div>
